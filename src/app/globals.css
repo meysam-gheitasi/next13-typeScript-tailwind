@@ -130,6 +130,33 @@
   }
 }
 
+.sub-menu {
+  position: absolute;
+  top: -0.25rem;
+  right: 0;
+  display: grid;
+  place-items: stretch;
+  justify-content: flex-start;
+  font-size: smaller;
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 27 34 / var(--tw-bg-opacity));
+  width: 180px;
+  padding: 9px;
+  border-radius: 5px;
+}
+.sss:hover {
+  overflow: visible
+}
+
+.ul-nav li {
+  @apply pb-5;
+}
+
+.ul-nav-sub li {
+  @apply pb-3;
+  @apply hover:text-slate-300;
+}
+
 .frame {
   border-style: inset;
   border: 1px solid #40a0ff;
@@ -184,6 +211,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
   .sm-box-5,
   .sm-box-6,
   .sm-box-7,
@@ -235,6 +263,8 @@
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }

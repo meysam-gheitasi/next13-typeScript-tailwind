@@ -12,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className=" min-h-screen bg-black-100 font-poppins">{children}</body>
+    <html lang="fa">
+      <body dir='rtl' className=" min-h-screen bg-black-100 font-poppins right">{children}</body>
     </html>
   )
 }
