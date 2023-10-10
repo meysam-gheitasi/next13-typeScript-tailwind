@@ -1,7 +1,27 @@
 
 function Home() {
     return (
-        <div className="">Home
+        <div className="">
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
         </div>
     )
 }
