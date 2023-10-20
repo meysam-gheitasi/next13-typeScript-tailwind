@@ -2,10 +2,9 @@ import Link from 'next/link'
 import Image from "next/image"
 import FooterMenu from './FooterMenu'
 
-
 function Footer() {
   return (
-    <div className="flex-between w-full body-text text-white border-t border-black-400 bg-black-100 pt-16 max-md:pb-20 pb-8">
+    <div className="flex-between w-full body-text text-white-800 border-t border-black-400 bg-black-100 pt-16 max-md:pb-20 pb-8 z-50">
       <div className="flex-center flex-col w-full gap-y-14">
         <h3 className=' font-extrabold text-4xl max-md:text-2xl'>فیلم دز</h3>
         <div className='flex max-md:flex-col max-md:gap-y-4 gap-x-4'>
@@ -29,14 +28,14 @@ function Footer() {
           </div>
         </div>
         <div className="flex-center !flex-col w-full gap-y-2">
-         <div className='flex gap-x-2'>
+          <div className='flex gap-x-2'>
             <Link href="/*" className=''>
               <Image src='/instagram.png' width={55} height={55} alt="instagram" className="" />
             </Link>
             <Link href="/*" className='flex-center gap-x-4'>
               <Image src='/telegram.png' width={30} height={30} alt="telegram" className="" />
             </Link>
-         </div>
+          </div>
           <span className='text-xs font-extrabold text-gradient_blue-purple'>صفحات رسمی فیلم دز</span>
         </div>
         <FooterMenu />

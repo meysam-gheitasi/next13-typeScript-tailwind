@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar"
 
 function layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="">
+    <div className="!min-h-screen">
       <Navbar />
       {children}
       <Footer />

@@ -141,8 +141,22 @@
   padding: 9px;
   border-radius: 5px;
 }
+
 .ul-nav-hover:hover {
-  overflow: visible
+  overflow: visible;
+}
+
+.fade-in-up {
+  padding-top: 8px;
+  background: linear-gradient(to bottom, transparent 0%, transparent 100px, #101014 100%);
+  width: 100%;
+  border-radius: 4px;
+  padding-top: calc(65% - -15px);
+}
+
+.fade-in-up-title {
+  background: #fcb900;
+  color: #101014;
 }
 
 .ul-nav li {
@@ -151,7 +165,7 @@
 
 .ul-nav-sub li {
   @apply pb-3;
-  @apply hover:text-slate-300;
+  @apply hover:text-slate-400;
 }
 
 .frame {
